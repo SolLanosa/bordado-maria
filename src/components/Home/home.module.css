@@ -1,0 +1,49 @@
+.containerHome {
+    display: flex;
+    width: 100%;
+    max-width: 100vw;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    background-color: #deb2c1;
+  }
+
+.home .title {
+    font-family: 'Bowlby One SC', cursive;
+    margin-left: 70px;
+    font-size: 25px;
+    padding-top: 56px;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column; 
+    width: 33%;    
+}
+
+.containerHome div span {
+    font-family: 'Rozha One', serif;
+    color: #2b5d41;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.imageContainer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.imageContainer div img {
+    display: flex;
+    width: 80%; 
+    object-fit: cover;
+    transition: 0.8s all ease-in-out;
+}
+
+.imageContainer div img:hover {
+    transform: scale(1.1);
+}
